@@ -50,14 +50,14 @@ const Header = () => {
           htmlFor="nav-toggle"
           className="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1"
         >
-          <svg
+          {/* <svg
             id="show-button"
             className="h-6 fill-current block"
             viewBox="0 0 20 20"
           >
             <title>Menu Open</title>
             <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
-          </svg>
+          </svg> */}
           <svg
             id="hide-button"
             className="h-6 fill-current hidden"
