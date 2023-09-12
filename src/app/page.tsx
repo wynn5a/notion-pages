@@ -6,6 +6,7 @@ import SeoMeta from "@/partials/SeoMeta";
 import Testimonials from "@/partials/Testimonials";
 import { Button, Feature } from "@/types";
 import { FaCheck } from "react-icons/fa/index.js";
+import Posts from "./blog/page";
 
 const Home = () => {
   const homepage = getListPage("homepage/_index.md");
@@ -23,7 +24,7 @@ const Home = () => {
   return (
     <>
       <SeoMeta />
-      <section className="section pt-14">
+      {/* <section className="section pt-14">
         <div className="container">
           <div className="row justify-center">
             <div className="mb-16 text-center lg:col-7">
@@ -112,7 +113,8 @@ const Home = () => {
       ))}
 
       <Testimonials data={testimonial} />
-      <CallToAction data={callToAction} />
+      <CallToAction data={callToAction} /> */}
+      <Posts />
     </>
   );
 };

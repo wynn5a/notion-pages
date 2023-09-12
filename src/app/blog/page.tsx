@@ -30,7 +30,7 @@ const Posts = () => {
         description={description}
         image={image}
       />
-      <PageHeader title={postIndex.frontmatter.title} />
+      <PageHeader title={'Learning Blog'} />
       <section className="section">
         <div className="container">
           <div className="row gx-5">
